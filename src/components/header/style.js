@@ -11,7 +11,7 @@ const Wrapper=styled.div`
   
   
   h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     margin: 0;
     padding: 5px 0;
   }

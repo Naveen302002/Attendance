@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <Wrapper>
        
-       <h1>RollCall</h1>
+       <h1>Attendance System</h1>
       
     </Wrapper>
    

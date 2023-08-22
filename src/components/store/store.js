@@ -1,9 +1,7 @@
-import React from 'react'
-import {createStore} from 'redux'
+import { createStore } from 'redux'
 const InitialState={
     users:[],
     loggedin:null
-
 }
 const reducer = (state=InitialState,action) => {
   switch(action.type)
