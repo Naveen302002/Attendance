@@ -1,12 +1,18 @@
 import { styled } from "styled-components";
 
 const Wrapper=styled.div`div {
-    max-width: 300px;
+    width:300px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 4px 4px grey;
+    margin: 100px auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
   }
   
   input[type="text"],
@@ -27,9 +33,10 @@ const Wrapper=styled.div`div {
     border: none;
     border-radius:
     font-size:1.2rem;
+    margin-bottom:10px;
   }
   input[type="submit"]:hover {
-    background-color: darkblue;
+    background-color: blue;
   }
 
 `
